@@ -20,7 +20,7 @@ I am currently developing this project in a fork, [Stakedllc/peregrine](https://
 ```
 pip install git+https://github.com/wardbradt/peregrine
 ```
-
+may need web3, which requires VC++14.0
 ## Example Usage
 
 This section provides a brief overview of Peregrine's functionality. Examples demonstrating many more features are available in [peregrine/examples](https://github.com/wardbradt/peregrine/tree/master/examples).
