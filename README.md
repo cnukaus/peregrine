@@ -49,6 +49,7 @@ from peregrinearb import get_opportunity_for_market
 import asyncio
 
 collections_dir = '/Users/wardbradt/cs/peregrine/'
+#collections.json file needs to be present for this example to run
 opportunity = asyncio.get_event_loop().run_until_complete(get_opportunity_for_market("BTC/USD", collections_dir, exchanges=["anxpro", "bitbay", "coinfloor", "gemini", "livecoin"]))
 print(opportunity)
 ```
